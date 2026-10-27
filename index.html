@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA - Actividad 2.2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Encabezado con tu nombre como pide el requerimiento -->
+    <header>
+        <h1>PWA Offline Checker</h1>
+        <h2>Alumno: Omar Alan Encinas Amarillas</h2>
+    </header>
+
+    <!-- Banner de estado Offline (Oculto por defecto) -->
+    <div id="offline-message" class="hidden">
+        ⚠️ Estás navegando sin conexión a Internet.
+    </div>
+
+    <main>
+        <h3>Datos de la WebAPI:</h3>
+        <!-- Aquí se pintarán los datos de Dunaroma o tu API -->
+        <ul id="api-data-container"></ul>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
